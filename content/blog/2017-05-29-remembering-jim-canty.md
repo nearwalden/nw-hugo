@@ -66,21 +66,14 @@ I'll close with a statement from [the Siena College mission/vision page](https:/
 
 
 
-<blockquote>
   
-> 
+>  
 > In our Franciscan community, optimism is a faith-filled affirmation of the basic goodness of life and of all men and women because, in the words of St. Francis, God our Creator is "good, all good, supremely good." So:
 > 
-> 
+>be positive    
+>be hopeful    
+>be open to the future.
   
-  
-> 
-> 
-    * be positive
-    * be hopeful
-    * be open to the future.
-  
-</blockquote>
 
 
 
