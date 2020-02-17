@@ -1,0 +1,3 @@
+baseURL = "https://www.nearwalden.com"
+languageCode = "en-us"
+title = "Nearwalden"

@@ -1,3 +1,45 @@
-baseURL = "http://example.org/"
+baseurl = "https://nearwalden.com/"
+title = "Nearwalden"
 languageCode = "en-us"
-title = "My New Hugo Site"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author]
+  name = "David Douglas"
+  bio = "Technologist, runner, family guy."
+  avatar = "img/avatar.png"
+
+[Params]
+  subtitle = "The future, now even better" # Subtitle of your site
+  description = "David Douglas' blog" # Description of your site
+  opengraph = true
+  twitter_cards = false
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true
+  post_navigation = true
+  post_meta = ["date"]# Order of post meta information (tags doesn't seem to work, category does
+  # added by dd
+  mainSections = ["post"]  # ["blog", "microblog"]
+  copyright = "David Douglas"
+  # highlightColor = "#2E8B57" # sea green
+  # highlightColor = "#5A6351" # lizard
+  highlightColor = "#748269" # seaweed roll
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["recent", "categories", "taglist", "social"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  linkedin = "daviddouglas3"
+  github = "nearwalden"
+  email = "nearwalden@gmail.com"
