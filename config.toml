@@ -9,7 +9,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Author]
   name = "David Douglas"
   bio = "Technologist, runner, family guy."
-  avatar = "img/avatar.png"
+  avatar = "images/dd-edinburgh.jpg"
 
 [Params]
   subtitle = "The future, now even better" # Subtitle of your site
@@ -31,8 +31,8 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   home = "right"   # Configure layout for home page
   list = "right"   # Configure layout for list pages
   single = "right" # Configure layout for single pages
-  # Enable widgets in given order
-  widgets = ["recent", "categories", "taglist", "social"]
+  # Enable widgets in given order.  Others:  search, categories, sidemenu
+  widgets = ["recent", "taglist", "social"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
@@ -43,3 +43,13 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   linkedin = "daviddouglas3"
   github = "nearwalden"
   email = "nearwalden@gmail.com"
+
+[[Params.widgets.social.custom]]
+  title = "Strava"
+  url = "https://www.strava.com/athletes/12430682"
+  # icon = "svg/strava.svg" # relative to layouts/partials  
+
+[[Params.widgets.social.custom]]
+  title = "My Micro.Blog Site"
+  url = "https://nearwalden.micro.blog/"
+  # icon = "svg/strava.svg" # relative to layouts/partials  
